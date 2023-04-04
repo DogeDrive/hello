@@ -1,0 +1,71 @@
+.top {
+  margin: 40px;
+  background-color: #16191e;
+  padding: 7px 7px;
+  border-radius: 20px;
+  
+
+  align-items: center;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.choose {
+  background-color: #3b434f;
+  border-radius: 16px;
+  margin-right: 80px;
+  color: transparent;
+  padding: 20px 30px;
+  border-radius: 10px;
+  background-image: url(https://i.imgur.com/4DMi8Ks.png);
+  /* background-size: contain; */
+  background-repeat: no-repeat;
+  background-position: 50% 50% ;
+  background-size: 70%  ;
+  
+  
+  /* margin-right: 10px; */
+  font-size: 24px;
+  /* padding-bottom: 10px; */
+}
+/* .choose:hover {
+  box-shadow: rgba(253, 76, 0, 0.5) 0 3px 8px;
+} */
+.textArea {
+  color: white;
+  font-size: 20px; 
+}
+
+.upload {
+  font-size: 24px;
+  background-color: #976eee;
+  background-repeat: no-repeat;
+  color: transparent;
+  background-position: 50% 50% ;
+  background-size: 80% ;
+  background-image: url(https://i.imgur.com/c7p7wd2.png);
+  /* color: #ffffff; */
+  
+  padding: 20px 30px;
+  border-radius: 16px;
+  margin-left: 80px;
+}
+
+/* .upload:hover {
+  border: 1px solid #13aa52;
+  background-color: #a5efc1;
+  color: #ffffff;
+  padding: 5px 10px;
+} */
+
+.upload:disabled,
+.upload[disabled] {
+  /* background-color: #976eee; */
+  color: transparent; 
+}
+
+div {
+  padding: 5px 10px;
+}
